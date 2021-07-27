@@ -6,3 +6,8 @@ function actionbarlef() {
     x.className = "section-bar-left";
   }
 }
+
+ $('#barlef').click(function (e){
+       e.preventDefault();
+       $('#wrapper').toggleClass("responsive");
+     });

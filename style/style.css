@@ -969,7 +969,7 @@ thead {
   }
   .content-home-handwriting {
     display: block;
-    width: 400px;
+    max-width: 100%;
   }
   .content-home-handwriting .col-md-4 {
     width: 33.33333333%;
@@ -1075,7 +1075,7 @@ thead {
   .content-home-post {
     max-width: 100% !important;
   }
-  .section-bar-left .list-menu-home:not(:nth-child) {
+  .section-bar-left .list-menu-home {
     display: none;
   }
   .section-bar-left.responsive {
