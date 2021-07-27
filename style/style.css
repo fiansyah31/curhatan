@@ -62,7 +62,7 @@
   color: #858585;
 }
 .social-login {
-  width: 365px;
+  width: 100%;
 
   margin: 0 auto;
   margin-bottom: 14px;
@@ -923,6 +923,17 @@ thead {
   }
 }
 @media (max-width: 560px) {
+  .form-signin {
+    max-width: 100%;
+  }
+  .form-social .facebook-btn {
+    width: 100%;
+  }
+  .form-social .google-btn {
+    margin-top: 6px !important;
+    margin: 0px;
+    width: 100% !important;
+  }
   .form-search input {
     width: 100% !important;
   }
