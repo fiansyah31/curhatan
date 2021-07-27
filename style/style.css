@@ -295,6 +295,7 @@
 }
 .section-content-home {
   margin: 0 auto;
+  width: 100%;
 }
 .content-home-post {
   background: #ffffff;
@@ -1071,10 +1072,26 @@ thead {
   .card-my-handwriting {
     margin-top: 40px !important;
   }
+  .content-home-post {
+    max-width: 100% !important;
+  }
+  .section-bar-left .list-menu-home:not(:nth-child) {
+    display: none;
+  }
+  .section-bar-left.responsive {
+    position: relative;
+  }
+  .section-bar-left.responsive .list-menu-home {
+    display: block;
+    float: none;
+  }
+  .form-search {
+    max-width: 100%;
+  }
 }
 @media (max-width: 390px) {
-  .form-search input {
-    width: 120px !important;
+  .form-search {
+    max-width: 150px;
   }
   .action-sampul ul li a {
     margin: 0px 12px 0px 0px !important;
