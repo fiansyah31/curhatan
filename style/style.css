@@ -839,6 +839,9 @@ thead {
   line-height: 20px;
   color: #656565;
 }
+.handwriting-link {
+  text-decoration: none;
+}
 @media (max-width: 1335px) {
   .section-bar-left .list-menu-home {
     width: 80px;
