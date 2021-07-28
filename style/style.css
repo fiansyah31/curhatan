@@ -297,7 +297,7 @@
   margin: 0 auto;
   max-width: 100%;
 }
-.content-home-post {
+.sq {
   background: #ffffff;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
   border-radius: 10px !important;
@@ -305,8 +305,13 @@
   width: 602px;
   padding: 15px;
 }
-
-.content-home-post h3 {
+.page-handwriting {
+  max-width: 100%;
+}
+.page-handwriting .sq {
+  width: 780px;
+}
+.sq h3 {
   font-weight: 300;
   font-size: 18px;
   line-height: 25px;
@@ -333,25 +338,25 @@
   color: #c0c0c0;
   margin-left: 10px;
 }
-.content-home-post .btn-feeling {
+.sq .btn-feeling {
   background: #eaffee;
   border-radius: 5px;
   padding: 6px;
   text-decoration: none;
 }
-.content-home-post .btn-feeling i {
+.sq .btn-feeling i {
   font-weight: 300;
   font-size: 15px;
   line-height: 18px;
   color: #6bc07e;
 }
-.content-home-post span {
+.sq span {
   color: #6bc07e;
 }
-.content-home-post .btn-feeling span {
+.btn-feeling span {
   margin-left: 5px;
 }
-.content-home-post .btn-post {
+.btn-post {
   background: #eaffee;
   border-radius: 5px;
   padding: 6px;
@@ -362,7 +367,7 @@
   line-height: none;
   color: #6bc07e;
 }
-.content-home-post .btn-post span {
+.btn-post span {
   margin-left: 5px;
 }
 .home-right-handwriting {
@@ -693,7 +698,7 @@ thead {
 .card-handwriting-profil {
   width: 100%;
 }
-.timeline-left .content-home-post {
+.timeline-left .sq {
   max-width: 100% !important;
 }
 
@@ -767,16 +772,7 @@ thead {
 .pagination a {
   color: #656565;
 }
-.sq {
-  background: #ffffff;
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
-  border-radius: 10px !important;
-  border: 0px !important;
-  padding: 15px;
-  margin-bottom: 20px;
-  width: 100%;
-  margin-left: 20px;
-}
+
 .title-page {
   font-weight: 500;
   font-size: 18px;
@@ -868,7 +864,7 @@ thead {
   .form-search input {
     width: 20rem !important;
   }
-  .content-home-post {
+  .sq {
     width: 550px;
   }
 
@@ -941,7 +937,7 @@ thead {
   .profil-home img {
     width: 20px;
   }
-  .content-home-post {
+  .sq {
     width: 400px;
   }
   .section-bar-left .list-menu-home {
@@ -960,7 +956,7 @@ thead {
   .home-post a img {
     width: 25px;
   }
-  .content-home-post h3 {
+  .sq h3 {
     font-weight: bold;
     font-size: 16px;
   }
@@ -1072,7 +1068,7 @@ thead {
   .card-my-handwriting {
     margin-top: 40px !important;
   }
-  .content-home-post {
+  .sq {
     max-width: 100% !important;
   }
   .section-bar-left .list-menu-home {
