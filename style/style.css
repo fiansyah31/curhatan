@@ -3,7 +3,7 @@
 }
 
 .background-waves {
-  background-image: url("/images/wave.svg");
+  background-image: url("../images/wave.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -106,7 +106,7 @@
   background-clip: padding-box;
   border: 1px solid #ced4da;
   background-color: #ffff;
-  width: 160px;
+  max-width: 100%;
   padding: 5px;
   border-radius: 0.25rem;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -118,7 +118,7 @@
   background-clip: padding-box;
   border: 1px solid #ced4da;
   background-color: #ffff;
-  width: 160px;
+  max-width: 100%;
   padding: 5px;
 
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
